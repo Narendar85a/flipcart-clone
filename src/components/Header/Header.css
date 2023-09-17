@@ -1,0 +1,47 @@
+.header {
+    background: #2874f0;
+    height: 55px;
+}
+.hComponent {
+    margin-left: 12%;
+    line-height: 0;
+    color: #ffffff;
+    text-decoration: none;
+}
+
+.logoUrl {
+    width: 75px;
+}
+.hContainer {
+    display: flex;
+}
+.subHeading {
+    font-size: 10px;
+    font-style: italic;
+}
+.subUrl {
+    width: 10px;
+    height: 10px;
+    margin-left: 4px;
+}
+.hList {
+    width: 250px;
+}
+.menuButton {
+    display: none;
+    [theme.breakpoints.down('sm')]: {
+        display: 'block';
+    }
+}
+
+.hButton {
+    margin: 0 5% 0 auto;
+    [theme.breakpoints.down('sm')]: {
+        display: none;
+    }
+}
+
+.search {
+    display: flex;
+    align-items: center;
+}

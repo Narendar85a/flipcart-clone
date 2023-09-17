@@ -1,0 +1,16 @@
+.grid {
+    display: flex;
+    margin-top: 20px;
+    justify-content: space-between;
+}
+
+.grid-img {
+    width: 100%;
+    object-fit: cover;
+}
+
+.grid-img2 {
+    object-fit: cover;
+    /* height: 20px; */
+    width: 100%;
+}

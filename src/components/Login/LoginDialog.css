@@ -1,0 +1,70 @@
+
+.login {
+    /* width: 90vh; */
+    /* height: 70vh; */
+    /* max-width: unset !important; */
+}
+
+.login-box1 {
+    background-image: url('https://static-assets-web.flixcart.com/www/linchpin/fk-cp-zion/img/login_img_c4a81e.png');
+    background-color: #2874f0;
+    background-position: center 85%;
+    background-repeat: no-repeat;
+    /* height: 70vh; */
+    /* width: 35vh; */
+    padding: 45px 35px;
+    color: white;
+    /* & > *: {
+        color: #FFFFFF;
+        fontWeight: 600;
+    } */
+}
+
+.login-box2 {
+    display: flex;
+    flex: 1;
+    padding: 25px 35px;
+    flex-direction: column;
+    /* width: 55vh; */
+    padding-top: 20px;
+}
+.login-input {
+    padding-top: 20px;
+}
+.login-loginBtn {
+    text-transform: none;
+    height: 48px;
+    border-radius: 2px;
+    padding-top: 20px;
+}
+.login-requestBtn {
+    border-radius: 2;
+    background-color: #2874f0;
+}
+
+.login-typo1 {
+    color: #878787;
+    /* font-size: 12px; */
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.login-typo2 {
+    margin: auto 0 5px 0;
+        text-align: center;
+        color: #2874f0;
+        font-weight: 600px;
+        font-size: 14px;
+        cursor: pointer;
+        padding-top: 20px;
+}
+
+.login-err {
+    font-size: 10px;
+    color: #ff6161;
+    line-height: 0;
+    margin-top: 10px;
+    font-weight: 600px;
+}
+
